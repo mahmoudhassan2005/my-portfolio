@@ -7,7 +7,7 @@ import React, { useState } from "react";
   Or replace with your own backend endpoint (see optional server code below).
 */
 
-const FORM_ENDPOINT = "http://localhost:4000/api/contact"; // <-- replace with your Formspree endpoint
+const FORM_ENDPOINT = "https://formspree.io/f/mzzjqyyy"; // <-- replace with your Formspree endpoint
 
 function Contact() {
   const [status, setStatus] = useState(null);
