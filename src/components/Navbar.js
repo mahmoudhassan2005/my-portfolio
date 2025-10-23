@@ -18,7 +18,7 @@ function Navbar() {
         </a>
         <img src="/images/profile.jpg" alt="Logo" className="logo" />
 
-        <nav className={`nav-links ${open ? "open" : ""}`}>
+        <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-md z-50">
           <a href="#about" onClick={(e)=>handleNav(e,"about")}>About</a>
           <a href="#skills" onClick={(e)=>handleNav(e,"skills")}>Skills</a>
           <a href="#projects" onClick={(e)=>handleNav(e,"projects")}>Projects</a>
